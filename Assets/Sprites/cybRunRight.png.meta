@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 5e0e490de1f852a4cb094a9097424841
+guid: 45f807b78b779db40a38b7705bc1d0b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -924741523581867423
-    second: cybRunForward_0
+      213: 8776513861678986540
+    second: cybRunRight_0
   - first:
-      213: -3501181389247456269
-    second: cybRunForward_1
+      213: -2921734692502373485
+    second: cybRunRight_1
   - first:
-      213: 3674842280257264520
-    second: cybRunForward_2
+      213: 919936535378482439
+    second: cybRunRight_2
   - first:
-      213: -7182533724331214865
-    second: cybRunForward_3
-  - first:
-      213: -3138251614079778011
-    second: cybRunForward_4
-  - first:
-      213: -7361181979567987994
-    second: cybRunForward_5
+      213: -237981452619394868
+    second: cybRunRight_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,127 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cybRunForward_0
+      name: cybRunRight_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 8
         y: 4
-        width: 30
-        height: 55
+        width: 34
+        height: 48
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a69d9db78aa23f0800000000000000
-      internalID: -924741523581867423
+      spriteID: c25faa37bd07cc970800000000000000
+      internalID: 8776513861678986540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRunForward_1
+      name: cybRunRight_1
       rect:
         serializedVersion: 2
-        x: 88
+        x: 72
         y: 4
-        width: 30
-        height: 55
+        width: 34
+        height: 48
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb52b7931e496fc0800000000000000
-      internalID: -3501181389247456269
+      spriteID: 39bf575f6c9e377d0800000000000000
+      internalID: -2921734692502373485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRunForward_2
+      name: cybRunRight_2
       rect:
         serializedVersion: 2
-        x: 152
+        x: 136
         y: 4
-        width: 30
-        height: 55
+        width: 34
+        height: 48
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88b12507599aff230800000000000000
-      internalID: 3674842280257264520
+      spriteID: 7055327a76544cc00800000000000000
+      internalID: 919936535378482439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRunForward_3
+      name: cybRunRight_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 3
-        width: 30
-        height: 55
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe779f5e1a3825c90800000000000000
-      internalID: -7182533724331214865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cybRunForward_4
-      rect:
-        serializedVersion: 2
-        x: 280
+        x: 200
         y: 4
-        width: 30
-        height: 55
+        width: 34
+        height: 48
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5238afeb8c0b274d0800000000000000
-      internalID: -3138251614079778011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cybRunForward_5
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 4
-        width: 30
-        height: 55
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e2e7d4adf3d7d990800000000000000
-      internalID: -7361181979567987994
+      spriteID: cc05d75312582bcf0800000000000000
+      internalID: -237981452619394868
       vertices: []
       indices: 
       edges: []

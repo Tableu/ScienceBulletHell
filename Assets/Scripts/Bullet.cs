@@ -1,10 +1,10 @@
-using System;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
     public Vector3 Direction;
     public float Speed;
+    public WallMaker RecentWall;
 
     void FixedUpdate()
     {

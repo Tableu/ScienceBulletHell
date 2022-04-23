@@ -5791,6 +5791,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1615111253, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: WallWidth
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615111253, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: WallLifetime
       value: 10
       objectReference: {fileID: 0}
