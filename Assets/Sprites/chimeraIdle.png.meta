@@ -120,10 +120,10 @@ TextureImporter:
         serializedVersion: 2
         x: 26
         y: 12
-        width: 172
-        height: 157
+        width: 174
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,10 +141,10 @@ TextureImporter:
         serializedVersion: 2
         x: 226
         y: 12
-        width: 172
-        height: 157
+        width: 174
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: chimeraIdle_2
       rect:
         serializedVersion: 2
-        x: 424
+        x: 426
         y: 12
-        width: 172
-        height: 157
+        width: 174
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,10 +183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 626
         y: 12
-        width: 172
-        height: 157
+        width: 174
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
