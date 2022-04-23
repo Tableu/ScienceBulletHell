@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 562722588}
   - component: {fileID: 562722587}
   - component: {fileID: 562722586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: chimera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
