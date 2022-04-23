@@ -1692,7 +1692,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562722583}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6234,10 +6234,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1615111255, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615111255, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615111255, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2867262527717283004, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: parent
       value: 
       objectReference: {fileID: 1137498332}
+    - target: {fileID: 6078004744436541587, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: radius
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 6078004744436541598, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: m_Name
       value: Player (1)
