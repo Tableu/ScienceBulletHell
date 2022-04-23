@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,6 +42,21 @@ public class Health : MonoBehaviour
                     Movement.enabled = true;
                 }
             }
+        }
+
+        List<Collider2D> results = new List<Collider2D>();
+        Physics2D.OverlapCircle(Vector2.zero, 2f, new ContactFilter2D()
+        {
+            layerMask = LayerMask.GetMask("Default")
+        }, results);
+        foreach (Collider2D col in results)
+        {
+            Damage dmg = col.gameObject.GetComponent<Damage>();
+            if (dmg != null)
+            {
+                ApplyDamage(dmg);
+            }
+            Destroy(col.gameObject);
         }
     }
 
