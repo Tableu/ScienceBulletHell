@@ -54,6 +54,7 @@ public class PlayerAnimation : MonoBehaviour
     private void SetDirection(Vector2 mouseDirection, Vector2 movementDirection)
     {
         float angle = Vector2.Angle(new Vector2(1,0), mouseDirection);
+        Animator.SetBool("Reverse", false);
 
         if (_movementDirection != Vector2.zero)
         {
@@ -65,6 +66,10 @@ public class PlayerAnimation : MonoBehaviour
         }
         if (angle <= 180 && angle > 135)
         {
+            if (movementDirection.x > 0)
+            {
+                Animator.SetBool("Reverse", true);
+            }
             if (_currentDirection == Vector2.left)
             {
                 return;
@@ -77,6 +82,10 @@ public class PlayerAnimation : MonoBehaviour
         }
         else if (angle <= 45 && angle > 0)
         {
+            if (movementDirection.x < 0)
+            {
+                Animator.SetBool("Reverse", true);
+            }
             if (_currentDirection == Vector2.right)
             {
                 return;
@@ -90,6 +99,10 @@ public class PlayerAnimation : MonoBehaviour
         {
             if (mouseDirection.y > 0)
             {
+                if (movementDirection.y < 0)
+                {
+                    Animator.SetBool("Reverse", true);
+                }
                 if (_currentDirection == Vector2.down)
                 {
                     return;
@@ -100,6 +113,10 @@ public class PlayerAnimation : MonoBehaviour
             }
             else
             {
+                if (movementDirection.y > 0)
+                {
+                    Animator.SetBool("Reverse", true);
+                }
                 if (_currentDirection == Vector2.up)
                 {
                     return;
