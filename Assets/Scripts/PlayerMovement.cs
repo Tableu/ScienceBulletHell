@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,9 +6,10 @@ public class PlayerMovement : Movement
 {
     private PlayerInputActions _inputActions;
     private bool _isDashing;
-    private bool _transformed = true;
-    private float _dashTimer;
+    public float DashTime { get; private set; }
     private Vector2 _playerDirection;
+    public Vector2 DashStartPos { get; private set; }
+    public Vector2 DashEndPos { get; private set; }
     public PlayerReferences PlayerReferences;
     public float DashSpeed;
     public float DashDuration;
@@ -22,23 +24,20 @@ public class PlayerMovement : Movement
         _inputActions.Player.Movement.performed += SetPlayerDirection;
     }
 
-    private void Update()
-    {
-        
-    }
-
     void FixedUpdate()
     {
         if (_isDashing)
         {
-            if (Time.time - _dashTimer < DashDuration)
+            if (Time.time - DashTime < DashDuration)
             {
                 Rigidbody2D.AddForce(_playerDirection*DashSpeed, ForceMode2D.Impulse);
             }
             else
             {
                 _isDashing = false;
-                _dashTimer = Time.time;
+                DashTime = Time.time;
+                DashEndPos = transform.position;
+                OnDashEnd?.Invoke();
             }
         }
         else
@@ -76,10 +75,11 @@ public class PlayerMovement : Movement
 
     private void Dash(InputAction.CallbackContext context)
     {
-        if (_transformed && Time.time - _dashTimer >= DashDuration)
+        if (Time.time - DashTime >= DashCooldown)
         {
+            DashStartPos = transform.position;
             _isDashing = true;
-            _dashTimer = Time.time;
+            DashTime = Time.time;
         }
     }
 
@@ -93,4 +93,6 @@ public class PlayerMovement : Movement
         _inputActions.Player.Dash.started -= Dash;
         _inputActions.Player.Movement.performed -= SetPlayerDirection;
     }
+
+    public Action OnDashEnd;
 }
