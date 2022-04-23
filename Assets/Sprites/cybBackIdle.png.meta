@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 26ebd1671c6d04042935bc8a33bd7292
+guid: 8d54a59814b5d3c4e94efda18f9fadaf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1318502701001843637
+    second: cybBackIdle_0
+  - first:
+      213: 8160571616051748284
+    second: cybBackIdle_1
+  - first:
+      213: 4477462964438864717
+    second: cybBackIdle_2
+  - first:
+      213: 3520374651000883699
+    second: cybBackIdle_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cybBackIdle_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3ab9888334c4210800000000000000
+      internalID: 1318502701001843637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cybBackIdle_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd56e2f5ac204170800000000000000
+      internalID: 8160571616051748284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cybBackIdle_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 4
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d439852f7d4232e30800000000000000
+      internalID: 4477462964438864717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cybBackIdle_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 4
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f98235e712ead030800000000000000
+      internalID: 3520374651000883699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

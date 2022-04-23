@@ -13,9 +13,9 @@ TagManager:
   - UI
   - Background
   - Player
-  - 
-  - 
-  - 
+  - EnemyProjectiles
+  - PlayerProjectiles
+  - Enemy
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 672134307
+    locked: 0
+  - name: Enemy
+    uniqueID: 568686387
     locked: 0
   - name: Player
     uniqueID: 3564449435

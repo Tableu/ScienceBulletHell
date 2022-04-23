@@ -47,7 +47,7 @@ public class Health : MonoBehaviour
         List<Collider2D> results = new List<Collider2D>();
         Physics2D.OverlapCircle(Vector2.zero, 2f, new ContactFilter2D()
         {
-            layerMask = LayerMask.GetMask("Default")
+            layerMask = LayerMask.GetMask("EnemyProjectiles")
         }, results);
         foreach (Collider2D col in results)
         {
@@ -55,8 +55,8 @@ public class Health : MonoBehaviour
             if (dmg != null)
             {
                 ApplyDamage(dmg);
+                Destroy(col.gameObject);
             }
-            Destroy(col.gameObject);
         }
     }
 
