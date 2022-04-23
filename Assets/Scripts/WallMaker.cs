@@ -32,9 +32,16 @@ public class WallMaker : MonoBehaviour
                 Physics2D.BoxCast((_startPos + _endPos) / 2, new Vector2(Mathf.Abs(_endPos.x - _startPos.x), 2), 0,
                     _endPos - _startPos, new ContactFilter2D()
                     {
-                        layerMask = LayerMask.GetMask("EnemyProjectiles"),
+                        layerMask = LayerMask.GetMask("EnemyProjectiles", "PlayerProjectiles"),
                         useLayerMask = true
                     }, results);
+                foreach (RaycastHit2D hit in results)
+                {
+                    if (hit)
+                    {
+                        Destroy(hit.collider.gameObject);
+                    }
+                }
             }
         }
     }
@@ -52,4 +59,12 @@ public class WallMaker : MonoBehaviour
         _wallActive = true;
         _startTime = Time.time;
     }
+    
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube((_startPos + _endPos) / 2, new Vector3(Mathf.Abs(_endPos.x - _startPos.x), 2, 1f));
+    }
+#endif
 }

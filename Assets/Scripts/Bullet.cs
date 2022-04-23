@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -8,5 +9,10 @@ public class Bullet : MonoBehaviour
     void FixedUpdate()
     {
         transform.position += Direction * Speed * Time.deltaTime;
+    }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
     }
 }

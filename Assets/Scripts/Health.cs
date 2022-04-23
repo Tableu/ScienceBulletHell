@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class Health : MonoBehaviour
     private Damage _dmg;
     public Animator Animator;
     public Collider2D Collider2D;
+    public float radius;
 
     private void Start()
     {
@@ -45,7 +47,7 @@ public class Health : MonoBehaviour
         }
 
         List<Collider2D> results = new List<Collider2D>();
-        Physics2D.OverlapCircle(transform.position, 5f, new ContactFilter2D()
+        Physics2D.OverlapCircle(transform.position, radius, new ContactFilter2D()
         {
             layerMask = LayerMask.GetMask("EnemyProjectiles"),
             useLayerMask = true
@@ -97,4 +99,12 @@ public class Health : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         Destroy(gameObject);
     }
+    
+    #if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
+#endif
 }

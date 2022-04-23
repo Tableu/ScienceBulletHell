@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: dac413d20432ae246ab97f3b43d9f78b
+guid: dadacdc6b5044aa4f9766a591a0c4b3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2206052423562249276
-    second: cybRightIdle_0
+      213: 8848993070067138329
+    second: bullets_0
   - first:
-      213: 1706349936045247832
-    second: cybRightIdle_1
+      213: 1115682805434658061
+    second: bullets_1
   - first:
-      213: 1951677027995192896
-    second: cybRightIdle_2
+      213: 5056628667063805970
+    second: bullets_2
   - first:
-      213: -444984111757021344
-    second: cybRightIdle_3
+      213: -7243563388056777162
+    second: bullets_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,85 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cybRightIdle_0
+      name: bullets_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 4
-        width: 24
-        height: 54
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 1
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c344156bdf87d9e10800000000000000
-      internalID: 2206052423562249276
+      spriteID: 91fbe313050fdca70800000000000000
+      internalID: 8848993070067138329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRightIdle_1
+      name: bullets_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 4
-        width: 24
-        height: 54
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 17
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85dcc78e93c2ea710800000000000000
-      internalID: 1706349936045247832
+      spriteID: d0da1f3b993bb7f00800000000000000
+      internalID: 1115682805434658061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRightIdle_2
+      name: bullets_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 4
-        width: 24
-        height: 54
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 1
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04e81f1aaefb51b10800000000000000
-      internalID: 1951677027995192896
+      spriteID: 21825654bf0cc2640800000000000000
+      internalID: 5056628667063805970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cybRightIdle_3
+      name: bullets_3
       rect:
         serializedVersion: 2
-        x: 210
-        y: 4
-        width: 24
-        height: 54
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 17
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06fa708de4913d9f0800000000000000
-      internalID: -444984111757021344
+      spriteID: 63ec9d20a71b97b90800000000000000
+      internalID: -7243563388056777162
       vertices: []
       indices: 
       edges: []
