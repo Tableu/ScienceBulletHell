@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     public Animator Animator;
     public Collider2D Collider2D;
     public float radius;
+    public string EnemyLayer;
 
     private void Start()
     {
@@ -49,7 +50,7 @@ public class Health : MonoBehaviour
         List<Collider2D> results = new List<Collider2D>();
         Physics2D.OverlapCircle(transform.position, radius, new ContactFilter2D()
         {
-            layerMask = LayerMask.GetMask("EnemyProjectiles"),
+            layerMask = LayerMask.GetMask(EnemyLayer),
             useLayerMask = true
         }, results);
         foreach (Collider2D col in results)

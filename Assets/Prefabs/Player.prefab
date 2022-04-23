@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 6078004744436541584}
   - component: {fileID: 1615111255}
   - component: {fileID: 1615111253}
+  - component: {fileID: 2867262527717283004}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -190,6 +191,7 @@ MonoBehaviour:
   Animator: {fileID: 4953197688941646739}
   Collider2D: {fileID: 6078004744436541585}
   radius: 1.75
+  EnemyLayer: EnemyProjectiles
 --- !u!50 &6078004744436541586
 Rigidbody2D:
   serializedVersion: 4
@@ -224,7 +226,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.0694273}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -235,7 +237,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.45, y: 2.45}
+  m_Size: {x: 2.45, y: 4.5888543}
   m_EdgeRadius: 0
 --- !u!114 &6078004744436541584
 MonoBehaviour:
@@ -369,4 +371,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMovement: {fileID: 6078004744436541584}
   lr: {fileID: 1615111255}
-  WallLifetime: 1
+  WallLifetime: 10
+  WallWidth: 0.2
+--- !u!114 &2867262527717283004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6078004744436541598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188e989aa0ee4f4499ee16638d4d28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+  parent: {fileID: 0}
+  Cooldown: 0.1
