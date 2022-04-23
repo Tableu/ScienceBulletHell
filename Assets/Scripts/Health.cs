@@ -99,6 +99,7 @@ public class Health : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         Destroy(gameObject);
+        HealthBar.gameObject.SetActive(false);
     }
     
     #if UNITY_EDITOR
