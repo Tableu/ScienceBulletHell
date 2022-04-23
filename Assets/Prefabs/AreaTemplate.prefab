@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3730936131214571097}
   - component: {fileID: 1396679211}
   - component: {fileID: 5988509043717912651}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: AreaTemplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,6 +74,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VirtualCamera: {fileID: 2504465422590814365}
   Collider: {fileID: 1396679211}
+--- !u!114 &2643555416420578724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504465421991930626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!114 &5743928332221746359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Virtual Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 3170738359517483367, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3170738359517483384, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -220,6 +246,10 @@ PrefabInstance:
       propertyPath: m_Lens.OrthographicSize
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 3170738361038754534, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3170738359517483387, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
@@ -244,3 +274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2504465421991930626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3170738361038754534, guid: 88f48c50f1eda054ba15b8132829fe9c, type: 3}
+  m_PrefabInstance: {fileID: 1063165850417674724}
+  m_PrefabAsset: {fileID: 0}
