@@ -100,11 +100,13 @@ public class Health : MonoBehaviour
     IEnumerator DeathCoroutine()
     {
         yield return new WaitForSeconds(DeathTime);
+        OnDeathDelayed?.Invoke();
         Destroy(gameObject);
         HealthBar.gameObject.SetActive(false);
     }
 
     public Action OnDeath;
+    public Action OnDeathDelayed;
 
 #if UNITY_EDITOR
     private void OnDrawGizmos()
