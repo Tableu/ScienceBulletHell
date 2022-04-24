@@ -15,10 +15,30 @@ MonoBehaviour:
   BulletPatterns:
   - bullet:
     - {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
+    - {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
     bulletPattern:
     - {fileID: 8643715861477554679, guid: aab32b489c6ebe44fb3421abed2de548, type: 3}
-    fireRate: 0.3
+    - {fileID: 166479407162574318, guid: 1c333712be7afd44cb9f332aa5edceef, type: 3}
+    fireRate: 0.2
     duration: 1.8
-    burstCount: 5
+    burstCount: 9
     targeted: 0
+    id: 
+  - bullet:
+    - {fileID: 1020622822236027434, guid: 7efa1c0db3aa6ed499bb70c9260920c1, type: 3}
+    bulletPattern:
+    - {fileID: 7707671444944189875, guid: d216a37941daf0b49bee95278a9947e8, type: 3}
+    fireRate: 0.1
+    duration: 0.5
+    burstCount: 5
+    targeted: 1
+    id: 
+  - bullet:
+    - {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+    bulletPattern:
+    - {fileID: 7707671444944189875, guid: d216a37941daf0b49bee95278a9947e8, type: 3}
+    fireRate: 0.05
+    duration: 0.1
+    burstCount: 5
+    targeted: 1
     id: 
