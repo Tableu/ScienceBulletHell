@@ -10,22 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22b1cf838272a884da90fd60d6db6602, type: 3}
-  m_Name: PlayerPatterns
+  m_Name: ChimeraPatterns
   m_EditorClassIdentifier: 
   BulletPatterns:
-  - bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+  - bullet: {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
     bulletPattern:
+    - {fileID: 2160125870660133050, guid: 5b4372dc8ce2cc54ba37a685cb760cab, type: 3}
     - {fileID: 206764284363354739, guid: 4e27a04c0fdf02b4bb21728adb02ccae, type: 3}
-    fireRate: 0.2
-    duration: 0
-    burstCount: 0
+    fireRate: 1
+    duration: 5
+    burstCount: 2
     targeted: 0
-    id: 3 attack
-  - bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
-    bulletPattern:
-    - {fileID: 8505944381972589861, guid: 029cc89b0853a244ab52cd9ed4927520, type: 3}
-    fireRate: 0.2
-    duration: 0
-    burstCount: 0
-    targeted: 0
-    id: basic
+    id: 

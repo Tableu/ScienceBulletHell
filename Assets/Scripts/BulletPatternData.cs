@@ -12,7 +12,10 @@ public class BulletPatternData : ScriptableObject
 public struct BulletPattern
 {
     public GameObject bullet;
-    public GameObject bulletPattern;
+    public List<GameObject> bulletPattern;
     public float fireRate;
+    public float duration;
+    public int burstCount;
+    public bool targeted;
     public string id;
 }

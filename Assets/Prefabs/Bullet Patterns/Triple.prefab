@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712358665971591461}
   m_Layer: 0
-  m_Name: BulletPattern
+  m_Name: Triple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

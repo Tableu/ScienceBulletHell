@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 65c320fb85c1b844a9fdcbcd82fe500e
+guid: 2b5cd65796b551c478d4ed4bccc957a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -726553328219348853
-    second: robotRight_0
+      213: -7067505776650606953
+    second: plantIdle_0
   - first:
-      213: -7740671722281028067
-    second: robotRight_1
+      213: 4572403713616537589
+    second: plantIdle_1
   - first:
-      213: 4141729242776531691
-    second: robotRight_2
+      213: -7291821587216452449
+    second: plantIdle_2
   - first:
-      213: -6871569815783314073
-    second: robotRight_3
+      213: -8273874174522449635
+    second: plantIdle_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -77,7 +77,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -89,7 +89,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -101,7 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robotRight_0
+      name: plantIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,41 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b80ab11f893cae5f0800000000000000
-      internalID: -726553328219348853
+      spriteID: 79628bef0fc2bed90800000000000000
+      internalID: -7067505776650606953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotRight_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d163786941c939490800000000000000
-      internalID: -7740671722281028067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robotRight_2
+      name: plantIdle_1
       rect:
         serializedVersion: 2
         x: 200
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be2fa8f6dc06a7930800000000000000
-      internalID: 4141729242776531691
+      spriteID: 5f76acfa3f0747f30800000000000000
+      internalID: 4572403713616537589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotRight_3
+      name: plantIdle_2
       rect:
         serializedVersion: 2
-        x: 300
+        x: 400
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +171,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d60f0e8a743a0a0800000000000000
-      internalID: -6871569815783314073
+      spriteID: f94307076ee3eca90800000000000000
+      internalID: -7291821587216452449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantIdle_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11af4f664b4d2d80800000000000000
+      internalID: -8273874174522449635
       vertices: []
       indices: 
       edges: []
