@@ -4,23 +4,21 @@ using UnityEngine.InputSystem;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private GameObject bullet;
     [SerializeField] private Transform parent;
-    public float Cooldown;
+    [SerializeField] private BulletPatternData Data;
     private float fireTime;
-    
+    private BulletPattern currentPattern;
+
+    private void Start()
+    {
+        currentPattern = Data.BulletPatterns[0];
+    }
+
     private void FixedUpdate()
     {
-        if (Time.time-fireTime >= Cooldown && Mouse.current.leftButton.isPressed)
+        if (Time.time-fireTime >= currentPattern.fireRate && Mouse.current.leftButton.isPressed)
         {
-            GameObject b = Instantiate(bullet, transform.position, Quaternion.identity, parent);
-            b.layer = 9;
-            Bullet script = b.GetComponent<Bullet>();
-            if (script != null)
-            {
-                script.Direction = (Vector2)(Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue()) -
-                                   transform.position).normalized;
-            }
+            BulletAttacks.SpawnBullets(gameObject, currentPattern.bullet, currentPattern.bulletPattern, parent, 9);
             fireTime = Time.time;
         }
     }
