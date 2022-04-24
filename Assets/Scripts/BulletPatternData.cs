@@ -11,7 +11,7 @@ public class BulletPatternData : ScriptableObject
 [Serializable]
 public struct BulletPattern
 {
-    public GameObject bullet;
+    public List<GameObject> bullet;
     public List<GameObject> bulletPattern;
     public float fireRate;
     public float duration;

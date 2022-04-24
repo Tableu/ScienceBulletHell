@@ -48,7 +48,7 @@ public class EnemyAttack : MonoBehaviour
             {
                 dir = player.transform.position - transform.position;
             }
-            BulletAttacks.SpawnBullets(gameObject, enumerator.Current.bullet, enumerator.Current.bulletPattern[patternIndex], parent,
+            BulletAttacks.SpawnBullets(gameObject, enumerator.Current.bullet[patternIndex], enumerator.Current.bulletPattern[patternIndex], parent,
                 8, dir);
             patternIndex++;
             fireStartTime = Time.time;
@@ -58,5 +58,16 @@ public class EnemyAttack : MonoBehaviour
                 burstCount++;
             }
         }
+    }
+
+    public void ChangePhase(BulletPatternData data)
+    {
+        Data = data;
+        enumerator = Data.BulletPatterns.GetEnumerator();
+        enumerator.MoveNext();
+        patternStartTime = Time.time;
+        fireStartTime = 0;
+        burstCount = 0;
+        patternIndex = 0;
     }
 }

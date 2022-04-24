@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
     public float Speed;
     public WallMaker RecentWall;
 
-    void FixedUpdate()
+    protected void FixedUpdate()
     {
         transform.position += Direction * Speed * Time.deltaTime;
     }

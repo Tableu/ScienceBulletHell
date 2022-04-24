@@ -47,6 +47,10 @@ public class Health : MonoBehaviour
                 }
             }
         }
+        if (HealthBar != null)
+        {
+            HealthBar.value = CurrentHealth;
+        }
 
         List<Collider2D> results = new List<Collider2D>();
         Physics2D.OverlapCircle(transform.position, radius, new ContactFilter2D()

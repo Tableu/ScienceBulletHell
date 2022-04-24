@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: PlayerPatterns
   m_EditorClassIdentifier: 
   BulletPatterns:
-  - bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+  - bullet:
+    - {fileID: 5908675299601487911, guid: a0ffbf228c0f5c743b8019191cc84ac3, type: 3}
     bulletPattern:
     - {fileID: 206764284363354739, guid: 4e27a04c0fdf02b4bb21728adb02ccae, type: 3}
     fireRate: 0.2
@@ -21,7 +22,8 @@ MonoBehaviour:
     burstCount: 0
     targeted: 0
     id: 3 attack
-  - bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+  - bullet:
+    - {fileID: 5908675299601487911, guid: a0ffbf228c0f5c743b8019191cc84ac3, type: 3}
     bulletPattern:
     - {fileID: 8505944381972589861, guid: 029cc89b0853a244ab52cd9ed4927520, type: 3}
     fireRate: 0.2

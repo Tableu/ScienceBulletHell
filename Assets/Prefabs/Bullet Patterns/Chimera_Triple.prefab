@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0, z: 0}
-  Speed: 20
+  Speed: 40
   RecentWall: {fileID: 0}
 --- !u!1 &3881709477565998166
 GameObject:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0, z: 0}
-  Speed: 20
+  Speed: 40
   RecentWall: {fileID: 0}
 --- !u!1 &7247261886753799333
 GameObject:
@@ -328,5 +328,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0, z: 0}
-  Speed: 20
+  Speed: 40
   RecentWall: {fileID: 0}

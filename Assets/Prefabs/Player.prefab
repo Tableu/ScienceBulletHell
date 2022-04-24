@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 1615111255}
   - component: {fileID: 1615111253}
   - component: {fileID: 2867262527717283004}
+  - component: {fileID: 734585106}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -192,7 +193,7 @@ MonoBehaviour:
   Collider2D: {fileID: 6078004744436541585}
   radius: 1.25
   EnemyLayer: EnemyProjectiles
-  DeathTime: 0
+  DeathTime: 0.2
 --- !u!50 &6078004744436541586
 Rigidbody2D:
   serializedVersion: 4
@@ -372,8 +373,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMovement: {fileID: 6078004744436541584}
   lr: {fileID: 1615111255}
+  Health: {fileID: 6078004744436541587}
+  Slider: {fileID: 0}
   WallLifetime: 10
   WallWidth: 0.2
+  RedeemHealthCount: 10
 --- !u!114 &2867262527717283004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,3 +393,16 @@ MonoBehaviour:
   parent: {fileID: 0}
   Data: {fileID: 11400000, guid: 536d5b68d9270f34b855401f3a253869, type: 2}
   startingWeapon: basic
+--- !u!114 &734585106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6078004744436541598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc260093bcc65ac49a473fb6df6516e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 6078004744436541587}

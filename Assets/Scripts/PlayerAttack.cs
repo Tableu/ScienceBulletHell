@@ -20,7 +20,7 @@ public class PlayerAttack : MonoBehaviour
         if (Time.time-fireTime >= currentPattern.fireRate && Mouse.current.leftButton.isPressed)
         {
             Vector2 dir = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue()) - transform.position;
-            BulletAttacks.SpawnBullets(gameObject, currentPattern.bullet, currentPattern.bulletPattern[patternIndex], parent, 9, dir);
+            BulletAttacks.SpawnBullets(gameObject, currentPattern.bullet[patternIndex], currentPattern.bulletPattern[patternIndex], parent, 9, dir);
             patternIndex++;
             if (patternIndex >= currentPattern.bulletPattern.Count)
             {

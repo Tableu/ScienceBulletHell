@@ -6,6 +6,8 @@ public class EnemyPhases : MonoBehaviour
 {
     public Animator Animator;
     public Health Health;
+    public EnemyAttack Attack;
+    public BulletPatternData Data;
     private bool secondPhase;
     
     void FixedUpdate()
@@ -14,6 +16,7 @@ public class EnemyPhases : MonoBehaviour
         {
             Animator.SetTrigger("2ndPhase");
             secondPhase = true;
+            Attack.ChangePhase(Data);
         }
     }
 }
