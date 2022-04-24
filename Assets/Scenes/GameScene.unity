@@ -21209,7 +21209,7 @@ MonoBehaviour:
   Collider2D: {fileID: 884197491}
   radius: 10
   EnemyLayer: PlayerProjectiles
-  DeathTime: 2
+  DeathTime: 0.5
 --- !u!4 &884197494
 Transform:
   m_ObjectHideFlags: 0
