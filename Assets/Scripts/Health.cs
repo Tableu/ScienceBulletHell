@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
     public Collider2D Collider2D;
     public float radius;
     public string EnemyLayer;
+    public float DeathTime;
 
     private void Start()
     {
@@ -90,6 +91,7 @@ public class Health : MonoBehaviour
             {
                 Animator.SetBool("Death", true);
                 Collider2D.enabled = false;
+                OnDeath?.Invoke();
                 StartCoroutine(DeathCoroutine());
             }
         }
@@ -97,12 +99,14 @@ public class Health : MonoBehaviour
 
     IEnumerator DeathCoroutine()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(DeathTime);
         Destroy(gameObject);
         HealthBar.gameObject.SetActive(false);
     }
-    
-    #if UNITY_EDITOR
+
+    public Action OnDeath;
+
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

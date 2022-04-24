@@ -16,8 +16,8 @@ MonoBehaviour:
   - bullet: {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
     bulletPattern:
     - {fileID: 2160125870660133050, guid: 5b4372dc8ce2cc54ba37a685cb760cab, type: 3}
-    - {fileID: 7247261886753799333, guid: 980342d7932e6c747894239603286623, type: 3}
-    fireRate: 0.2
+    - {fileID: 4325450361266184290, guid: a5323bfbbfe898441b0ac5bb583d5f84, type: 3}
+    fireRate: 0.3
     duration: 2
     burstCount: 4
     targeted: 0

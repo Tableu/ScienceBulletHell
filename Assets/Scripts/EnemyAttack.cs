@@ -6,6 +6,7 @@ public class EnemyAttack : MonoBehaviour
     [SerializeField] private BulletPatternData Data;
     [SerializeField] private Transform parent;
     [SerializeField] private GameObject player;
+    [SerializeField] private Health Health;
     private int burstCount;
     private List<BulletPattern>.Enumerator enumerator;
     private float patternStartTime;
@@ -19,6 +20,10 @@ public class EnemyAttack : MonoBehaviour
         fireStartTime = 0;
         burstCount = 0;
         patternIndex = 0;
+        Health.OnDeath += delegate
+        {
+            enabled = false;
+        };
     }
     
     private void FixedUpdate()

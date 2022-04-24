@@ -183,15 +183,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49376d06a2798e646ab5ea3d73bf83da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 10
-  MaxHealth: 10
+  CurrentHealth: 20
+  MaxHealth: 20
   Rigidbody2D: {fileID: 6078004744436541586}
   Movement: {fileID: 6078004744436541584}
   HealthBar: {fileID: 0}
   Animator: {fileID: 4953197688941646739}
   Collider2D: {fileID: 6078004744436541585}
-  radius: 1.75
+  radius: 1.25
   EnemyLayer: EnemyProjectiles
+  DeathTime: 0
 --- !u!50 &6078004744436541586
 Rigidbody2D:
   serializedVersion: 4
@@ -304,7 +305,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 10
+    widthMultiplier: 5
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -385,6 +386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188e989aa0ee4f4499ee16638d4d28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
   parent: {fileID: 0}
-  Cooldown: 0.1
+  Data: {fileID: 11400000, guid: 536d5b68d9270f34b855401f3a253869, type: 2}
+  startingWeapon: basic
