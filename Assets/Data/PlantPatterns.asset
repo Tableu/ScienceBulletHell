@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b1cf838272a884da90fd60d6db6602, type: 3}
+  m_Name: PlantPatterns
+  m_EditorClassIdentifier: 
+  BulletPatterns:
+  - bullet:
+    - {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
+    bulletPattern:
+    - {fileID: 8643715861477554679, guid: aab32b489c6ebe44fb3421abed2de548, type: 3}
+    fireRate: 0.3
+    duration: 1.8
+    burstCount: 5
+    targeted: 0
+    id: 

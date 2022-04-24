@@ -115,6 +115,8 @@ GameObject:
   - component: {fileID: 2885544032754110967}
   - component: {fileID: 2885544032754110966}
   - component: {fileID: 2885544032754110960}
+  - component: {fileID: 754350978}
+  - component: {fileID: 754350979}
   m_Layer: 10
   m_Name: ChimeraBoss
   m_TagString: Untagged
@@ -144,13 +146,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2885544032754110973}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49376d06a2798e646ab5ea3d73bf83da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 1000
-  MaxHealth: 1000
+  CurrentHealth: 200
+  MaxHealth: 200
   Rigidbody2D: {fileID: 2885544032754110966}
   Movement: {fileID: 0}
   HealthBar: {fileID: 0}
@@ -158,6 +160,7 @@ MonoBehaviour:
   Collider2D: {fileID: 2885544032754110960}
   radius: 10
   EnemyLayer: PlayerProjectiles
+  DeathTime: 6.5
 --- !u!50 &2885544032754110966
 Rigidbody2D:
   serializedVersion: 4
@@ -192,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.61405087, y: -0.5032768}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -203,5 +206,37 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25, y: 25}
+  m_Size: {x: 21.523638, y: 18.637962}
   m_EdgeRadius: 0
+--- !u!114 &754350978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885544032754110973}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5f8778829533149a603b15f9c5b59f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 4e44cacafd417b84eb34fa838f490260, type: 2}
+  parent: {fileID: 0}
+  player: {fileID: 0}
+  Health: {fileID: 2885544032754110967}
+--- !u!114 &754350979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885544032754110973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd992afb5b056c48bd9b51fb13bf778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Animator: {fileID: 2885544032153373127}
+  Health: {fileID: 2885544032754110967}
+  Attack: {fileID: 754350978}
+  Data: {fileID: 11400000, guid: 070f668b02ce62f4ba105b2f73b577a5, type: 2}
