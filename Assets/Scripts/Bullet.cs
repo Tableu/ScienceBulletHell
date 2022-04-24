@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public Vector3 Direction;
+    public Vector3 Direction = Vector3.zero;
     public float Speed;
     public WallMaker RecentWall;
 
