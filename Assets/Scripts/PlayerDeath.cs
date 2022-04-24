@@ -10,7 +10,7 @@ public class PlayerDeath : MonoBehaviour
     {
         health.OnDeathDelayed += delegate
         {
-            SceneManager.LoadScene("Title");
+            SceneManager.LoadScene("Scenes/Death Screen");
         };
     }
 }
