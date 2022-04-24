@@ -1757,6 +1757,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &431683354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431683357}
+  - component: {fileID: 431683356}
+  - component: {fileID: 431683355}
+  m_Layer: 6
+  m_Name: BossActivate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &431683355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431683354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.1406918, y: -9.313723}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 75.87265, y: 19.627445}
+  m_EdgeRadius: 0
+--- !u!114 &431683356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431683354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f8a5cbef134784d92f73af0838b3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collider2D: {fileID: 431683355}
+  Enemy: {fileID: 754350977}
+--- !u!4 &431683357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431683354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.157527, y: 12.455266, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 0, z: -10}
+  m_LocalPosition: {x: 0.39998522, y: -3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6204,7 +6276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754350977}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a5f8778829533149a603b15f9c5b59f, type: 3}
   m_Name: 
@@ -6380,11 +6452,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2504465422590814364, guid: 867187fb4ee086c4d9975af2ac9dd3d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.09
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2504465422590814364, guid: 867187fb4ee086c4d9975af2ac9dd3d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -14.3
       objectReference: {fileID: 0}
     - target: {fileID: 2504465422590814364, guid: 867187fb4ee086c4d9975af2ac9dd3d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6745,11 +6817,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6078004744436541599, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.09
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6078004744436541599, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -14.3
       objectReference: {fileID: 0}
     - target: {fileID: 6078004744436541599, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7182,9 +7254,17 @@ PrefabInstance:
       propertyPath: HealthBar
       value: 
       objectReference: {fileID: 23984117}
+    - target: {fileID: 2885544032754110967, guid: 2c194415c6838994e8838914d5ba9666, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2885544032754110973, guid: 2c194415c6838994e8838914d5ba9666, type: 3}
       propertyPath: m_Name
       value: ChimeraBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885544032754110973, guid: 2c194415c6838994e8838914d5ba9666, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c194415c6838994e8838914d5ba9666, type: 3}
