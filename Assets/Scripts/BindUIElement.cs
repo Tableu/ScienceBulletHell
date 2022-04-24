@@ -13,6 +13,9 @@ public class BindUIElement : MonoBehaviour
     
     void Update()
     {
-        transform.position = Camera.main.WorldToScreenPoint(target.transform.position+offset);
+        if (target != null)
+        {
+            transform.position = Camera.main.WorldToScreenPoint(target.transform.position + offset);
+        }
     }
 }
