@@ -58,6 +58,7 @@ public class WallMaker : MonoBehaviour
                             {
                                 bullet.Direction = Vector2.Reflect(bullet.Direction, hit.normal);
                                 bullet.RecentWall = this;
+                                bullet.gameObject.layer = 9;
                             }
                         }
                         else

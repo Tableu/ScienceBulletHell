@@ -5,15 +5,18 @@ public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] private BulletPatternData Data;
     [SerializeField] private Transform parent;
+    [SerializeField] private GameObject player;
     private int burstCount;
     private List<BulletPattern>.Enumerator enumerator;
     private float patternStartTime;
+    private float fireStartTime;
     private int patternIndex;
     private void Start()
     {
         enumerator = Data.BulletPatterns.GetEnumerator();
         enumerator.MoveNext();
         patternStartTime = Time.time;
+        fireStartTime = 0;
         burstCount = 0;
         patternIndex = 0;
     }
@@ -22,17 +25,28 @@ public class EnemyAttack : MonoBehaviour
     {
         if (Time.time - patternStartTime > enumerator.Current.duration)
         {
-            enumerator.MoveNext();
+            if (!enumerator.MoveNext())
+            {
+                enumerator = Data.BulletPatterns.GetEnumerator();
+                enumerator.MoveNext();
+            }
             patternStartTime = Time.time;
             burstCount = 0;
+            fireStartTime = 0;
             patternIndex = 0;
         }
 
-        if (burstCount < enumerator.Current.burstCount)
+        if (burstCount < enumerator.Current.burstCount && Time.time - fireStartTime > enumerator.Current.fireRate)
         {
+            Vector2 dir = Vector2.down;
+            if (enumerator.Current.targeted)
+            {
+                dir = player.transform.position - transform.position;
+            }
             BulletAttacks.SpawnBullets(gameObject, enumerator.Current.bullet, enumerator.Current.bulletPattern[patternIndex], parent,
-                8);
+                8, dir);
             patternIndex++;
+            fireStartTime = Time.time;
             if (patternIndex >= enumerator.Current.bulletPattern.Count)
             {
                 patternIndex = 0;

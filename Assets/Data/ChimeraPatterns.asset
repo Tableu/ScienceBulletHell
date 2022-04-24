@@ -16,9 +16,28 @@ MonoBehaviour:
   - bullet: {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
     bulletPattern:
     - {fileID: 2160125870660133050, guid: 5b4372dc8ce2cc54ba37a685cb760cab, type: 3}
-    - {fileID: 206764284363354739, guid: 4e27a04c0fdf02b4bb21728adb02ccae, type: 3}
-    fireRate: 1
-    duration: 5
+    - {fileID: 7247261886753799333, guid: 980342d7932e6c747894239603286623, type: 3}
+    fireRate: 0.2
+    duration: 2
+    burstCount: 4
+    targeted: 0
+    id: 
+  - bullet: {fileID: 873650250946305409, guid: 11cbeb90976db0c43b4ef7f903d06f0e, type: 3}
+    bulletPattern:
+    - {fileID: 2160125870660133050, guid: 5b4372dc8ce2cc54ba37a685cb760cab, type: 3}
+    - {fileID: 2160125870660133050, guid: 5b4372dc8ce2cc54ba37a685cb760cab, type: 3}
+    fireRate: 0.5
+    duration: 2
     burstCount: 2
     targeted: 0
+    id: 
+  - bullet: {fileID: 3066799809487225055, guid: f81fb519bf4554844843689e970aea10, type: 3}
+    bulletPattern:
+    - {fileID: 7707671444944189875, guid: d216a37941daf0b49bee95278a9947e8, type: 3}
+    - {fileID: 7707671444944189875, guid: d216a37941daf0b49bee95278a9947e8, type: 3}
+    - {fileID: 7707671444944189875, guid: d216a37941daf0b49bee95278a9947e8, type: 3}
+    fireRate: 0.2
+    duration: 2
+    burstCount: 2
+    targeted: 1
     id: 
