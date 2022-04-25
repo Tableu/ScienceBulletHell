@@ -10,7 +10,9 @@ public class PlayerDeath : MonoBehaviour
     {
         health.OnDeathDelayed += delegate
         {
+            AkSoundEngine.PostEvent("music_arena_stop_event", GameObject.Find("WwiseGlobal"));
             SceneManager.LoadScene("Scenes/Death Screen");
+            AkSoundEngine.PostEvent("music_death_play_event", GameObject.Find("WwiseGlobal"));
         };
     }
 }

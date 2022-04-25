@@ -108,8 +108,6 @@ public class Health : MonoBehaviour
         OnDeathDelayed?.Invoke();
         Destroy(gameObject);
         HealthBar.gameObject.SetActive(false);
-        AkSoundEngine.PostEvent("music_arena_stop_event", GameObject.Find("WwiseGlobal"));
-        AkSoundEngine.PostEvent("music_death_play_event", GameObject.Find("WwiseGlobal"));
     }
 
     public Action OnDeath;

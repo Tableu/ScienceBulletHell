@@ -9,5 +9,5 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	389477828	music_title	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Title-Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_title		20482396
 	414805648	music_arena	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Arena Odyssey - Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_arena		10619368
-	584443201	music_death	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Died-Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_death		882064
+	584443201	music_death	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Died-Arena 3099_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_death		882064
 
