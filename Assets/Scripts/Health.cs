@@ -80,6 +80,7 @@ public class Health : MonoBehaviour
         _knockbackDirection = (transform.position - dmg.transform.position).normalized;
         _inKnockback = true;
         Rigidbody2D.AddForce(_dmg.knockbackStrength*_knockbackDirection, ForceMode2D.Impulse);
+        AkSoundEngine.PostEvent("player_hurt_event", GameObject.Find("WwiseGlobal"));
         if (Movement != null)
         {
             Movement.enabled = false;
@@ -107,6 +108,8 @@ public class Health : MonoBehaviour
         OnDeathDelayed?.Invoke();
         Destroy(gameObject);
         HealthBar.gameObject.SetActive(false);
+        AkSoundEngine.PostEvent("music_arena_stop_event", GameObject.Find("WwiseGlobal"));
+        AkSoundEngine.PostEvent("music_death_play_event", GameObject.Find("WwiseGlobal"));
     }
 
     public Action OnDeath;

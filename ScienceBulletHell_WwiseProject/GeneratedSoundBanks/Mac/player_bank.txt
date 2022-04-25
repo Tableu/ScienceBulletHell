@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	132400067	player_magic_shoot_event			\Default Work Unit\Player\player_magic_shoot_event	
+	415991176	player_dash_event			\Default Work Unit\Player\player_dash_event	
+	2558512811	player_footsteps_event			\Default Work Unit\Player\player_footsteps_event	
+	2951219567	player_hurt_event			\Default Work Unit\Player\player_hurt_event	
+	2981734192	player_death_event			\Default Work Unit\Player\player_death_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	427823549	player_death	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_death		678624
+	500742209	player_footstep_02	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_footstep02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_footsteps\player_footstep_02		53080
+	520628610	player_dash	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_dash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_dash		131980
+	647421283	player_magic_shoot	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_magic_shoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_magic_shoot		192064
+	895763257	player_hurt	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_hurt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_hurt		62268
+	930383606	player_footstep_04	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_footstep04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_footsteps\player_footstep_04		52392
+	939466067	player_footstep_01	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_footstep01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_footsteps\player_footstep_01		66664
+	1071868117	player_footstep_03	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_player_footstep03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player_footsteps\player_footstep_03		54204
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1050414063" Language="SFX" Hash="3814503302">
+			<ObjectPath>\SoundBanks\Default Work Unit\magic_bank</ObjectPath>
+			<ShortName>magic_bank</ShortName>
+			<Path>magic_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3434988206" Name="magic_impact_event" ObjectPath="\Events\Default Work Unit\Magic\magic_impact_event" DurationType="OneShot" DurationMin="0.625875" DurationMax="0.862909">
+					<IncludedMemoryFiles>
+						<File Id="250293615" Language="SFX">
+							<ShortName>sbh_magic_impact.wav</ShortName>
+							<Path>SFX\sbh_magic_impact_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2583976704">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1546231383" Language="SFX" Hash="2657670324">
+			<ObjectPath>\SoundBanks\Default Work Unit\music_bank</ObjectPath>
+			<ShortName>music_bank</ShortName>
+			<Path>music_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1297354530" Name="music_arena_play_event" ObjectPath="\Events\Default Work Unit\Music\music_arena_play_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="414805648" Language="SFX">
+							<ShortName>Arena Odyssey - Arena 3099.wav</ShortName>
+							<Path>SFX\Arena Odyssey - Arena 3099_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4284695988" Name="music_arena_stop_event" ObjectPath="\Events\Default Work Unit\Music\music_arena_stop_event" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3906602963" Name="music_death_play_event" ObjectPath="\Events\Default Work Unit\Music\music_death_play_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="584443201" Language="SFX">
+							<ShortName>Died-Arena 3099.wav</ShortName>
+							<Path>SFX\Died-Arena 3099_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2212241161" Name="music_death_stop_event" ObjectPath="\Events\Default Work Unit\Music\music_death_stop_event" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="107064951" Name="music_title_play_event" ObjectPath="\Events\Default Work Unit\Music\music_title_play_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="389477828" Language="SFX">
+							<ShortName>Title-Arena 3099.wav</ShortName>
+							<Path>SFX\Title-Arena 3099_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="234876245" Name="music_title_stop_event" ObjectPath="\Events\Default Work Unit\Music\music_title_stop_event" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3137872592" Language="SFX" Hash="1858101834">
+			<ObjectPath>\SoundBanks\Default Work Unit\enemy_bank</ObjectPath>
+			<ShortName>enemy_bank</ShortName>
+			<Path>enemy_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="545304681" Name="enemy_death_event" ObjectPath="\Events\Default Work Unit\Enemy\enemy_death_event" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="619798820" Language="SFX">
+							<ShortName>sbh_enemy_death.wav</ShortName>
+							<Path>SFX\sbh_enemy_death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2308151344" Name="enemy_disappear_event" ObjectPath="\Events\Default Work Unit\Enemy\enemy_disappear_event" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="49361600" Language="SFX">
+							<ShortName>sbh_enemy_disappear.wav</ShortName>
+							<Path>SFX\sbh_enemy_disappear_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2399047862" Name="enemy_magic_shoot_event" ObjectPath="\Events\Default Work Unit\Enemy\enemy_magic_shoot_event" DurationType="OneShot" DurationMin="0.584389" DurationMax="0.584389">
+					<IncludedMemoryFiles>
+						<File Id="647421283" Language="SFX">
+							<ShortName>sbh_player_magic_shoot.wav</ShortName>
+							<Path>SFX\sbh_player_magic_shoot_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1768160317" Name="enemy_magic_shoot_rapid_event" ObjectPath="\Events\Default Work Unit\Enemy\enemy_magic_shoot_rapid_event" DurationType="OneShot" DurationMin="0.44803" DurationMax="0.44803">
+					<IncludedMemoryFiles>
+						<File Id="647421283" Language="SFX">
+							<ShortName>sbh_player_magic_shoot.wav</ShortName>
+							<Path>SFX\sbh_player_magic_shoot_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1532748424" Name="enemy_phase02_event" ObjectPath="\Events\Default Work Unit\Enemy\enemy_phase02_event" DurationType="OneShot" DurationMin="2.322458" DurationMax="2.322458">
+					<IncludedMemoryFiles>
+						<File Id="119571840" Language="SFX">
+							<ShortName>sbh_enemy_phase2.wav</ShortName>
+							<Path>SFX\sbh_enemy_phase2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3820128371" Language="SFX" Hash="1035056301">
+			<ObjectPath>\SoundBanks\Default Work Unit\player_bank</ObjectPath>
+			<ShortName>player_bank</ShortName>
+			<Path>player_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="415991176" Name="player_dash_event" ObjectPath="\Events\Default Work Unit\Player\player_dash_event" DurationType="OneShot" DurationMin="0.687063" DurationMax="0.687063">
+					<IncludedMemoryFiles>
+						<File Id="520628610" Language="SFX">
+							<ShortName>sbh_player_dash.wav</ShortName>
+							<Path>SFX\sbh_player_dash_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2981734192" Name="player_death_event" ObjectPath="\Events\Default Work Unit\Player\player_death_event" DurationType="OneShot" DurationMin="3.534167" DurationMax="3.534167">
+					<IncludedMemoryFiles>
+						<File Id="427823549" Language="SFX">
+							<ShortName>sbh_player_death.wav</ShortName>
+							<Path>SFX\sbh_player_death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2558512811" Name="player_footsteps_event" ObjectPath="\Events\Default Work Unit\Player\player_footsteps_event" DurationType="OneShot" DurationMin="0.272542" DurationMax="0.346875">
+					<IncludedMemoryFiles>
+						<File Id="500742209" Language="SFX">
+							<ShortName>sbh_player_footstep02.wav</ShortName>
+							<Path>SFX\sbh_player_footstep02_10C4C929.wem</Path>
+						</File>
+						<File Id="930383606" Language="SFX">
+							<ShortName>sbh_player_footstep04.wav</ShortName>
+							<Path>SFX\sbh_player_footstep04_10C4C929.wem</Path>
+						</File>
+						<File Id="939466067" Language="SFX">
+							<ShortName>sbh_player_footstep01.wav</ShortName>
+							<Path>SFX\sbh_player_footstep01_10C4C929.wem</Path>
+						</File>
+						<File Id="1071868117" Language="SFX">
+							<ShortName>sbh_player_footstep03.wav</ShortName>
+							<Path>SFX\sbh_player_footstep03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2951219567" Name="player_hurt_event" ObjectPath="\Events\Default Work Unit\Player\player_hurt_event" DurationType="OneShot" DurationMin="0.323979" DurationMax="0.323979">
+					<IncludedMemoryFiles>
+						<File Id="895763257" Language="SFX">
+							<ShortName>sbh_player_hurt.wav</ShortName>
+							<Path>SFX\sbh_player_hurt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="132400067" Name="player_magic_shoot_event" ObjectPath="\Events\Default Work Unit\Player\player_magic_shoot_event" DurationType="OneShot" DurationMin="1." DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="647421283" Language="SFX">
+							<ShortName>sbh_player_magic_shoot.wav</ShortName>
+							<Path>SFX\sbh_player_magic_shoot_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

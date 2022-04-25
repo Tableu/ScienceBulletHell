@@ -17,5 +17,7 @@ public class PlayerCamera : MonoBehaviour
         {
             _area.EnterArea(gameObject);
         }
+        AkSoundEngine.PostEvent("music_death_stop_event", GameObject.Find("WwiseGlobal"));
+        AkSoundEngine.PostEvent("music_arena_play_event", GameObject.Find("WwiseGlobal"));
     }
 }
