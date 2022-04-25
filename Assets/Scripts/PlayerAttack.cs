@@ -27,6 +27,7 @@ public class PlayerAttack : MonoBehaviour
                 patternIndex = 0;
             }
             fireTime = Time.time;
+            AkSoundEngine.PostEvent("player_magic_shoot_event", GameObject.Find("WwiseGlobal"));
         }
     }
 }

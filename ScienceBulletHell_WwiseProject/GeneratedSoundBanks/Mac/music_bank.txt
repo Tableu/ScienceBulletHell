@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	107064951	music_title_play_event			\Default Work Unit\Music\music_title_play_event	
+	234876245	music_title_stop_event			\Default Work Unit\Music\music_title_stop_event	
+	1297354530	music_arena_play_event			\Default Work Unit\Music\music_arena_play_event	
+	2212241161	music_death_stop_event			\Default Work Unit\Music\music_death_stop_event	
+	3906602963	music_death_play_event			\Default Work Unit\Music\music_death_play_event	
+	4284695988	music_arena_stop_event			\Default Work Unit\Music\music_arena_stop_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	389477828	music_title	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Title-Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_title		20482396
+	414805648	music_arena	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Arena Odyssey - Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_arena		10619368
+	584443201	music_death	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\Died-Arena 3099_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_death		882064
+

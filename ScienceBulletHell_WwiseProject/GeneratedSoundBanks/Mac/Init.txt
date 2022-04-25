@@ -1,0 +1,11 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1138681361	player_bus			\Default Work Unit\Master Audio Bus\player_bus	
+	1411040840	enemy_bus			\Default Work Unit\Master Audio Bus\enemy_bus	
+	2680856269	music_bus			\Default Work Unit\Master Audio Bus\music_bus	
+	2683955573	magic_bus			\Default Work Unit\Master Audio Bus\magic_bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

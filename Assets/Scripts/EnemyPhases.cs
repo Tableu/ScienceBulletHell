@@ -17,6 +17,7 @@ public class EnemyPhases : MonoBehaviour
             Animator.SetTrigger("2ndPhase");
             secondPhase = true;
             Attack.ChangePhase(Data);
+            AkSoundEngine.PostEvent("enemy_phase02_event", GameObject.Find("WwiseGlobal"));
         }
     }
 }

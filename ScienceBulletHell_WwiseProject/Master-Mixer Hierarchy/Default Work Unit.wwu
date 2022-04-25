@@ -9,6 +9,27 @@
 							<ObjectRef Name="System" ID="{08E8BE6E-237D-4579-9A06-B802CD451162}" WorkUnitID="{CEC38113-4795-415B-9F28-E212A582FFBD}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="music_bus" ID="{C6E2D92F-818E-42AC-853B-247BC4781289}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="player_bus" ID="{251BF4BB-5D88-4B2F-A107-F1D3B1604DFD}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="magic_bus" ID="{B00C8F6F-364E-4662-9EAD-E8B7BDE35FB1}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="enemy_bus" ID="{F01EBC06-5A12-4583-A373-84730E7E644C}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

@@ -80,6 +80,7 @@ public class PlayerMovement : Movement
             DashStartPos = transform.position;
             _isDashing = true;
             DashTime = Time.time;
+            AkSoundEngine.PostEvent("player_dash_event", GameObject.Find("WwiseGlobal"));
         }
     }
 

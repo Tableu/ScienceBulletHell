@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3434988206	magic_impact_event			\Default Work Unit\Magic\magic_impact_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	250293615	magic_impact	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Mac\SFX\sbh_magic_impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Magic\magic_impact		120232
+

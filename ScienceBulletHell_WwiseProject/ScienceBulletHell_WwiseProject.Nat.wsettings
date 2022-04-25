@@ -3,6 +3,24 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{CBE14C79-39D0-42ED-97F7-FFFDE8B4A1B4}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Games\ScienceBulletHell_clone\Assets\Audio\Music\"/>
+				<Property Name="Event Action List\{05794D78-3753-4360-B1F2-949D45A00425}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0BEA87EC-EBAD-4824-8601-B9697D27F050}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{17FA1B9A-A042-4D1B-B95D-A66591A50CDC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{24565BF8-904F-42D6-B3DD-1932AB37899C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{25D3546F-90AB-403F-A27E-29B11DB31A66}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{29465F4A-B157-486B-A01E-690574999FC8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2F14BE45-E35B-4C2E-863D-63FD5962EBDC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{49459C40-37E2-4213-8876-F8EA05119518}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{545BD7FA-CA96-4528-93B8-0763C146EBA0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6353F111-5E41-4440-98DE-97F862C3A4E8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8BB9D287-7539-4CB1-B7B0-72F22517ABF0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AC2BBFE9-4B0F-4FA3-A91D-55EE9A423862}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BBD7CCD3-7770-4A24-B3BE-5631246DB6D8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BF8E7F53-D903-486D-9E68-E691ACFECA01}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E264F11E-59ED-4637-9D60-17A144F35519}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F63887B1-8401-4E25-8D0B-4D58003CBFC1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FFB701E7-64DB-4299-80BE-B8659BCE4652}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -19,8 +37,11 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="9HMavZG6cUue8qPyADMQd1TZHKs+v5pOr1+yNOyL5BU="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="1eibOFDRfkKB1yCGYA5ZHY2OuWkvxBtItp0KnqK6MMgWJ+ivTd7kTZw34mgqAos4jqZPzriIyUStgNlxDPhQ8g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="ilbKp3llPkOqcMpp/ChtMwEn1xr/////mE4x+58Vo0O9RQA5XVeZxwEn1xr/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="ilbKp3llPkOqcMpp/ChtMwEnN/f/////mE4x+58Vo0O9RQA5XVeZxwEnN/f/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

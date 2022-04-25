@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1EE727BB-4135-4CF9-AA11-D029016EBFF1}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{1EE727BB-4135-4CF9-AA11-D029016EBFF1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1EE727BB-4135-4CF9-AA11-D029016EBFF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="player_bank" ID="{389BE8D5-D150-427E-81D7-2086600E591D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="player_magic_shoot_event" ID="{24565BF8-904F-42D6-B3DD-1932AB37899C}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_death_event" ID="{6353F111-5E41-4440-98DE-97F862C3A4E8}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_dash_event" ID="{29465F4A-B157-486B-A01E-690574999FC8}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_footsteps_event" ID="{2F14BE45-E35B-4C2E-863D-63FD5962EBDC}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_hurt_event" ID="{17FA1B9A-A042-4D1B-B95D-A66591A50CDC}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="enemy_bank" ID="{69B98E8D-C42F-481B-B69D-0A9EA2BA30C8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="enemy_phase02_event" ID="{25D3546F-90AB-403F-A27E-29B11DB31A66}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_magic_shoot_rapid_event" ID="{FFB701E7-64DB-4299-80BE-B8659BCE4652}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_magic_shoot_event" ID="{BF8E7F53-D903-486D-9E68-E691ACFECA01}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_disappear_event" ID="{BBD7CCD3-7770-4A24-B3BE-5631246DB6D8}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_death_event" ID="{8BB9D287-7539-4CB1-B7B0-72F22517ABF0}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="magic_bank" ID="{AFE82716-DE4D-4DE4-9C37-E2682A028B38}">
+					<ObjectInclusionList>
+						<ObjectRef Name="magic_impact_event" ID="{545BD7FA-CA96-4528-93B8-0763C146EBA0}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_bank" ID="{CE4FA68E-88B8-44C9-AD80-D9710CF850F2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="music_arena_stop_event" ID="{49459C40-37E2-4213-8876-F8EA05119518}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_title_stop_event" ID="{05794D78-3753-4360-B1F2-949D45A00425}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_arena_play_event" ID="{E264F11E-59ED-4637-9D60-17A144F35519}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_death_play_event" ID="{0BEA87EC-EBAD-4824-8601-B9697D27F050}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_title_play_event" ID="{F63887B1-8401-4E25-8D0B-4D58003CBFC1}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_death_stop_event" ID="{AC2BBFE9-4B0F-4FA3-A91D-55EE9A423862}" WorkUnitID="{225656E4-A414-48D7-ACFB-44E05C9FB603}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	545304681	enemy_death_event			\Default Work Unit\Enemy\enemy_death_event	
+	1532748424	enemy_phase02_event			\Default Work Unit\Enemy\enemy_phase02_event	
+	1768160317	enemy_magic_shoot_rapid_event			\Default Work Unit\Enemy\enemy_magic_shoot_rapid_event	
+	2308151344	enemy_disappear_event			\Default Work Unit\Enemy\enemy_disappear_event	
+	2399047862	enemy_magic_shoot_event			\Default Work Unit\Enemy\enemy_magic_shoot_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	49361600	enemy_disappear	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Windows\SFX\sbh_enemy_disappear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\enemy_disappear		288064
+	119571840	enemy_phase02	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Windows\SFX\sbh_enemy_phase2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\enemy_phase02		445976
+	619798820	enemy_death	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Windows\SFX\sbh_enemy_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\enemy_death		288064
+	647421283	enemy_magic_shoot_rapid	A:\Games\ScienceBulletHell_clone\ScienceBulletHell_WwiseProject\.cache\Windows\SFX\sbh_player_magic_shoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\enemy_magic_shoot_rapid		192064
+
