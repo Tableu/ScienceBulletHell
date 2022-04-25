@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1050414063" Language="SFX" Hash="3814503302">
+		<SoundBank Id="1050414063" Language="SFX" Hash="4069907109">
 			<ObjectPath>\SoundBanks\Default Work Unit\magic_bank</ObjectPath>
 			<ShortName>magic_bank</ShortName>
 			<Path>magic_bank.bnk</Path>
@@ -26,12 +26,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2583976704">
+		<SoundBank Id="1355168291" Language="SFX" Hash="642525829">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1546231383" Language="SFX" Hash="2657670324">
+		<SoundBank Id="1546231383" Language="SFX" Hash="3123426954">
 			<ObjectPath>\SoundBanks\Default Work Unit\music_bank</ObjectPath>
 			<ShortName>music_bank</ShortName>
 			<Path>music_bank.bnk</Path>
@@ -45,11 +45,11 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4284695988" Name="music_arena_stop_event" ObjectPath="\Events\Default Work Unit\Music\music_arena_stop_event" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3906602963" Name="music_death_play_event" ObjectPath="\Events\Default Work Unit\Music\music_death_play_event" DurationType="Infinite">
+				<Event Id="3906602963" Name="music_death_play_event" ObjectPath="\Events\Default Work Unit\Music\music_death_play_event" DurationType="OneShot" DurationMin="5." DurationMax="5.">
 					<IncludedMemoryFiles>
 						<File Id="584443201" Language="SFX">
 							<ShortName>Died-Arena 3099.wav</ShortName>
-							<Path>SFX\Died-Arena 3099_D79FB2B7.wem</Path>
+							<Path>SFX\Died-Arena 3099_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +65,7 @@
 				<Event Id="234876245" Name="music_title_stop_event" ObjectPath="\Events\Default Work Unit\Music\music_title_stop_event" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3137872592" Language="SFX" Hash="1858101834">
+		<SoundBank Id="3137872592" Language="SFX" Hash="3674638065">
 			<ObjectPath>\SoundBanks\Default Work Unit\enemy_bank</ObjectPath>
 			<ShortName>enemy_bank</ShortName>
 			<Path>enemy_bank.bnk</Path>
@@ -112,7 +112,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3820128371" Language="SFX" Hash="1035056301">
+		<SoundBank Id="3820128371" Language="SFX" Hash="3591954421">
 			<ObjectPath>\SoundBanks\Default Work Unit\player_bank</ObjectPath>
 			<ShortName>player_bank</ShortName>
 			<Path>player_bank.bnk</Path>

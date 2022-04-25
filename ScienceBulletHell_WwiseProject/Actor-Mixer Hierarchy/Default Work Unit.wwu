@@ -438,11 +438,6 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-4</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -506,9 +501,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="music_death" ID="{44418081-9AE7-462D-ACCC-84487A8BD07E}" ShortID="147609393">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88C6E5EE-1C9A-4CD0-B6FF-19118C13D042}"/>
