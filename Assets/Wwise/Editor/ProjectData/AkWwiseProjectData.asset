@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8713c0d68744e74b86080993595953b, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -39,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: abcccb87195ef04e8f6bd67478ad5acc
     GuidInternal: 
-    m_lastTime: -8585507617319632836
+    m_lastTime: -8585507608298563546
     List:
     - name: enemy_bus
       guid: 06bc1ef0125a8345a37384730e7e644c
@@ -135,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bb27e71e3541f94caa11d029016ebff1
     GuidInternal: 
-    m_lastTime: -8585507617311652538
+    m_lastTime: -8585507619522282442
     List:
     - name: enemy_bank
       guid: 8d8eb9692fc41b48b69d0a9ea2ba30c8
@@ -205,7 +204,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e456562214a4d748acfb44e05c9fb603
     GuidInternal: 
-    m_lastTime: -8585507617325589936
+    m_lastTime: -8585507619530563018
     List:
     - name: Enemy
       guid: 7154c8a223477e49ac931eb5d52e4248
@@ -436,8 +435,8 @@ MonoBehaviour:
         guid: ec87ea0badeb24488601b9697d27f050
       Path: Events\Default Work Unit\Music\music_death_play_event
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5
+      minDuration: 5
     - name: music_death_stop_event
       guid: e9bf2bac0f4ba34fa91d55ee9a423862
       id: 2212241161
@@ -671,16 +670,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585507729613609782
     List: []
-=======
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
->>>>>>> Stashed changes
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
