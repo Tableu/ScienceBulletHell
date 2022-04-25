@@ -21200,8 +21200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49376d06a2798e646ab5ea3d73bf83da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 300
-  MaxHealth: 300
+  CurrentHealth: 250
+  MaxHealth: 250
   Rigidbody2D: {fileID: 884197492}
   Movement: {fileID: 0}
   HealthBar: {fileID: 2071957907}
@@ -22134,6 +22134,10 @@ PrefabInstance:
       propertyPath: HealthRefill
       value: 
       objectReference: {fileID: 4280003445009402240, guid: 0271f445216f1004988a45bdeb42b690, type: 3}
+    - target: {fileID: 1615111253, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
+      propertyPath: WallLifetime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1615111253, guid: a27d9eb7dc24c4e49bed51f32ce03949, type: 3}
       propertyPath: ItemSpawnMax.x
       value: 7
