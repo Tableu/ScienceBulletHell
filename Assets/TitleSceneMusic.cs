@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class TitleSceneMusic : MonoBehaviour
 {
-    public AudioSource source;
-    public AudioClip audioClip;
     // Start is called before the first frame update
-    void Start()
+   private void Start()
     {
         AkSoundEngine.PostEvent("music_death_stop_event", GameObject.Find("WwiseGlobal"));
         AkSoundEngine.PostEvent("music_arena_stop_event", GameObject.Find("WwiseGlobal"));
-        source = GetComponent<AudioSource>();
-        source.loop = true;
-        source.PlayOneShot(audioClip);
+        AkSoundEngine.PostEvent("music_title_play_event", GameObject.Find("WwiseGlobal"));
     }
 
     // Update is called once per frame

@@ -12,6 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     public Animator Animator;
     void Start()
     {
+        AkSoundEngine.PostEvent("music_title_stop_event", GameObject.Find("WwiseGlobal"));
         AkSoundEngine.PostEvent("music_arena_stop_event", GameObject.Find("WwiseGlobal"));
         AkSoundEngine.PostEvent("music_arena_play_event", GameObject.Find("WwiseGlobal"));
         _inputActions = new PlayerInputActions();
